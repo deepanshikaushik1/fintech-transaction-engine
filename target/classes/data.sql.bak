@@ -1,0 +1,6 @@
+-- Sample transactions for demo
+INSERT INTO transactions (id, transaction_id, from_account, to_account, amount, currency, status, timestamp, description, created_at)
+VALUES 
+('1', 'TXN-001', 'ACC-001', 'ACC-002', 1000.00, 'USD', 'COMPLETED', '2026-06-17 09:00:00', 'Payment for services', '2026-06-17 09:00:00'),
+('2', 'TXN-002', 'ACC-003', 'ACC-004', 2500.50, 'EUR', 'PENDING', '2026-06-17 09:05:00', 'International transfer', '2026-06-17 09:05:00'),
+('3', 'TXN-003', 'ACC-001', 'ACC-005', 500.00, 'USD', 'PROCESSING', '2026-06-17 09:10:00', 'Subscription payment', '2026-06-17 09:10:00');
